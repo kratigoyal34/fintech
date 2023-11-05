@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-.container{
+.container {
     max-width: 1100px;
     padding: 0px 40px;
     margin: 0 auto;
@@ -13,53 +13,60 @@
 }
 
 /* navbar */
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 15px 0px;
 }
 
-.navbar .logo a{
+.navbar .logo a {
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 700;
     padding-top: 5px;
     background: linear-gradient(to right, #228b22 20%, #004225 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
 }
 
-.navbar ul li{
+.navbar ul li {
     color: black;
     list-style-type: none;
-    padding: 0px 13px;
+    padding: 0px 18px;
     padding-bottom: 3px;
     font-size: 16px;
     font-weight: 400;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     color: #228b22;
+    font-size: 17px;
+    transition: 0.5s;
 }
 
-.navbar .icon i{
+.navbar ul li a:hover {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navbar .icon i {
     padding: 0px 14px;
 }
 
 /* Hero section */
-.main-item{
+.main-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
-.main .main-col-1{
+.main .main-col-1 {
     display: flex;
     flex-direction: column;
     gap: 29px;
@@ -69,13 +76,13 @@
     padding-left: 107px
 }
 
-.main-col-1 h1{
+.main-col-1 h1 {
     font-size: 62px;
     font-family: serif;
     color: #004225;
 }
 
-.main-col-1 button{
+.main-col-1 button {
     padding: 10px 15px;
     border: none;
     border-radius: 17px;
@@ -85,12 +92,12 @@
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-.main-col-1 p{
+.main-col-1 p {
     font-weight: 600;
 }
 
 
-.main .main-col-2 img{
+.main .main-col-2 img {
     padding-top: 12px;
 }
 .main{
@@ -102,7 +109,7 @@
     width: 100%;
 }
 
-.review{
+.review {
     background: #336D43;
     display: flex;
     gap: 15px;
@@ -110,7 +117,7 @@
     justify-content: center;
 }
 
-.review p{
+.review p {
     font-size: 22px;
     padding: 10px 0px;
     font-weight: 600;
@@ -118,11 +125,11 @@
     word-spacing: 3px;
 }
 
-.review .icons{
+.review .icons {
     letter-spacing: 2px;
 }
 
-.review a{
+.review a {
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -130,7 +137,7 @@
     margin: 0px 16px;
 }
 
-.review a::after{
+.review a::after {
     content: "";
     display: block;
     margin: 0 auto;
@@ -141,28 +148,28 @@
 }
 
 /* main body section */
-.body-main{
+.body-main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 88px;
     padding: 23px 0px;
 }
 
-.body-main .body-item{
+.body-main .body-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column: 10px;
 }
 
-.body-item img{
+.body-item img {
     height:  206px;
     width: auto;
     display: block;
     margin: auto;
 }
 
-.body h2{
+.body h2 {
     text-align: center;
     padding: 35px 0px;
     font-size: 28px;
@@ -171,34 +178,34 @@
     -webkit-text-fill-color: transparent;
 }
 
-.body-item-col2{
+.body-item-col2 {
     flex-direction: column;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.body-item-col2 h3{
+.body-item-col2 h3 {
     font-size: 24px;
     padding-right: 76px;
 }
 
-#headline{
+#headline {
     padding-left: 93px;
     padding-right: 0px;
 }
 
-.body-item-col2 p{
+.body-item-col2 p {
     font-size: 16px;
     padding-right: 103px;
 }
 
-#para{
+#para {
     padding-left: 95px;
     padding-right: 0px;
 }
 
-.body-item-col2 button{
+.body-item-col2 button {
     padding: 8px 11px;
     width: 95px;
     display: block;
@@ -211,18 +218,18 @@
     font-size: 15px;
 }
 
-#button{
+#button {
     margin-left: 146px;
 }
 
 /* footer */
-.footer i .fa-shield-check{
+.footer i .fa-shield-check {
     width: 100px;
     height: 100px;
     color: black;
 }
 
-.footer{
+.footer {
     text-align: center;
     margin: 42px;
 }
