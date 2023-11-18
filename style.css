@@ -90,8 +90,13 @@
     color: white;
     font-weight: 600;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
 }
 
+.main-col-1 button:hover {
+    background: green;
+    padding: 12px 17px;
+}
 .main-col-1 p {
     font-weight: 600;
 }
